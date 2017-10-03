@@ -1,0 +1,12 @@
+﻿  Source.cpp
+Source.cpp(63): error C2440: 'initializing': cannot convert from 'Wrapper<T> *' to 'double'
+          with
+          [
+              T=double
+          ]
+  Source.cpp(63): note: There is no context in which this conversion is possible
+  Source.cpp(225): note: see reference to function template instantiation 'T Container::cast<double>(void)' being compiled
+          with
+          [
+              T=double
+          ]
